@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "EFECTOR_SALUD" ,
+    "patron": [
+      {"LOWER": "hospital", "OP": "?"},
+      {"LOWER": "clínica", "OP": "?"},
+      {"LOWER": "centro", "OP": "?"},
+      {"LOWER": "de", "OP": "?"},
+      {"LOWER": "salud", "OP": "?"}
+    ]
+  },
+  {
+    "nombre": "EMPRESA",
+    "patron": [
+      {"LOWER": "empresa"}
+    ]
+  }
+]
